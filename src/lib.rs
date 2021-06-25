@@ -136,7 +136,7 @@ impl HermezApi {
     pub const TESTNET_URL: &'static str = "https://api.testnet.hermez.io";
 
     /// Base URL for the Hermez node on localhost, usefull for testing changes locally and required for nuit tests
-    pub const LOCALHOST_URL: &'static str = "http://localhost:4010";
+    pub const LOCALHOST_URL: &'static str = "http://localhost:8086";
 
     /// API version
     pub const VERSION: &'static str = "v1";
